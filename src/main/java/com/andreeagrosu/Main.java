@@ -48,6 +48,11 @@ public class Main {
             hanger6.addClothes(shirt2);
         }
 
+        if (wardrobe.isThereRoomForClothing(skirt2)) {
+            hanger10.addClothes(skirt2);
+            wardrobe.addHanger(hanger10);
+        }
+
 
     }
 }
