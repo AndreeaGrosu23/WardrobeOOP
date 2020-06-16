@@ -44,6 +44,10 @@ public class Main {
 
         wardrobe.addHanger(hanger10);
 
+        if (hanger6.isThereRoomForClothing(TypeOfClothing.SHIRT)) {
+            hanger6.addClothes(shirt2);
+        }
+
 
     }
 }
